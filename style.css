@@ -387,16 +387,23 @@ section .heading {
     border-radius: 15px;
 }
 
-#myCarousel .item .carousel-caption,#myCarousel .item.ative .carousel-caption
+#myCarousel .item .carousel-caption
 {
+    float: left;
+    left: 0px;
+    width: 100%;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.5);
+}
+#myCarousel .item .active .carousel-caption{
     float: left;
     left: 0px;
     width: 100%;
     text-align: center;
     background-color: rgba(255,255,255, 0.5);
 }
-
-#myCarousel .item h3,#myCarousel .item.active h3
+#myCarousel .item h3,#myCarousel .item .active h3
 {
     position: relative;
     top: 0px;
@@ -404,7 +411,7 @@ section .heading {
     font-weight: bold;
 }
 
-#myCarousel .item h4,#myCarousel .item.active h4
+#myCarousel .item h4,#myCarousel .item .active h4
 {
     color: #fff;
     font-weight: bold;
