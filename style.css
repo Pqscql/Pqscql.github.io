@@ -140,24 +140,27 @@ section .heading {
 }
 
 
-/********** EXPERIENCE ************/
-#experience {
+/* EXPERIENCE */
+#experience
+{
     background: #2f668b;
 }
-
-#experience .heading h2 {
-    color: white;
-    text-transform: uppercase;
+#experience ul{
+    list-style: none;
 }
-
-.timeline {
+#experience .heading h2
+{
+    color: #fff;
+}
+.timeline
+{
     padding: 30px 10px;
     position: relative;
 }
-
-.timeline:before {
+.timeline:before
+{
     top: 0;
-    bottom:0;
+    bottom: 0;
     position: absolute;
     content: " ";
     width: 5px;
@@ -165,24 +168,23 @@ section .heading {
     left: 50%;
     margin-left: -2.5px;
 }
-
-.timeline > li {
+.timeline > li
+{
     margin-bottom: 20px;
     position: relative;
 }
-
-.timeline > li:after{
-    clear:both;
+.timeline > li:after
+{
+    clear: both;
 }
-
-.timeline > li:before, .timeline > li:after{
+.timeline > li:before, .timeline > li:after
+{
     content: " ";
     display: table;
-
 }
-
-.timeline li .timeline-badge {
-    color:#2f668b;
+.timeline li .timeline-badge
+{
+    color: #2f668b;
     width: 50px;
     line-height: 50px;
     font-size: 20px;
@@ -194,17 +196,16 @@ section .heading {
     background-color: #ddd;
     border-radius: 50%;
 }
-
-.timeline-panel-container {
+.timeline-panel-container
+{
     width: 50%;
     float: left;
 }
-
-.timeline-panel-container-inverted {
+.timeline-panel-container-inverted
+{
     width: 50%;
     float: right;
 }
-
 .timeline-panel
 {
     width: 90%;
@@ -242,22 +243,24 @@ section .heading {
     left: -14px;
     right: auto;
 }
-
-.timeline-heading h3{
+.timeline-heading h3
+{
     margin-top: 5px;
     font-size: 20px;
 }
-
-.timeline-heading h4{
-    color: #2f668b;
+.timeline-heading h4
+{
+     color: #2f668b;
 }
 
+.timeline-body li{
+    list-style:inside;
+    list-style-position: outside;
+    
+}
 .timeline-body ul{
-    list-style: inside;
-}
-
-#experience ul.timeline{
-    list-style: none;
+    padding-left: 10px;
+    
 }
 
 /******** EDUCATION ***********/
@@ -392,7 +395,7 @@ section .heading {
     float: left;
     left: 0px;
     width: 100%;
-    padding: 20px 30px;
+    padding: 0px 30px 50px 30px;
     text-align: center;
     background-color: rgba(255,255,255, 0.5);
 }
@@ -400,6 +403,7 @@ section .heading {
     float: left;
     left: 0px;
     width: 100%;
+    padding: 0px 30px 50px 30px;
     text-align: center;
     background-color: rgba(255,255,255, 0.5);
 }
