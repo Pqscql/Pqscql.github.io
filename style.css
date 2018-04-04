@@ -94,13 +94,19 @@ section .heading {
     color: black;
 }
 
+.social {
+    position: relative;
+    font-size: 64px;
+    vertical-align: middle;
+    color: white;
+}
+
 .button1 {
     font-weight: bold;
     text-transform: uppercase;
     color:white;
     border: 1px solid white;
     display: inline-block;
-    margin-top: 20px;
     padding: 18px 50px;
     border-radius: 3px;
     transition: all 0.3s ease-in 0s;
