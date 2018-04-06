@@ -15,8 +15,9 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
+
+               <nav class="navbar navbar-default navbar-fixed-top">
+               <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                          <span class="icon-bar"></span>
@@ -24,7 +25,7 @@
                          <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="navbar-collapse collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li><a href="#about">Moi</a></li>
                         <li><a href="#skills">Compétences</a></li>
@@ -32,11 +33,10 @@
                         <li><a href="#education">Formation</a></li>
                         <li><a href="#portfolio">Collaborations</a></li>
                         <li><a href="#recommandations">Réalisations</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
-                </div>
-            
-            </div>
-        
+               </div>
+               </div>
         </nav>
     <section id="about" class="container-fluid">
         <div class="col xs-8 md-4 profile-picture">
@@ -257,6 +257,56 @@
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
                 </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+            <h2>CONTACT</h2>
+            </div>   
+                      <form id="contact-form" method="post" action="" role="form">
+                        <div class="form-group row">
+                          <div class="col-md-6">
+                                <label for="prenom">Prénom :<span class="blue"> *</span></label>
+                                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom">
+                                <p class="comments"></p>
+                          </div>
+                          <div class="col-md-6">
+                                <label for="nom">Nom :<span class="blue"> *</span></label>
+                                <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
+                                <p class="comments"></p>
+                          </div>                         
+                        </div>
+                        <div class="form-group row">
+                          <div class="col-md-6">
+                                <label for="prenom">Email :<span class="blue"> *</span></label>
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Veuillez saisir votre email">
+                                <p class="comments"></p>
+                          </div>
+                          <div class="col-md-6">
+                                <label for="tel">Téléphone :<span class="blue"> *</span></label>
+                                <input type="tel" class="form-control" id="tel" name="tel" placeholder="Numéro de téléphone">
+                                <p class="comments"></p>
+                          </div>                         
+                        </div>
+                        <div class="form-group row">
+                          <div class="col-md-12">
+                                <label for="message">Message :<span class="blue"> *</span></label>
+                                <textarea class="form-control" rows="5" id="message" name="message" placeholder="Tapez votre message ici..." value="CACA"></textarea>
+                                <p class="comments"></p>
+
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                        <div class="col-md-12">
+                            <span class="blue">*Ces informations sont requises</span>
+                        </div>
+                        </div>
+                        
+                        <input type="submit" class="button2" value="Envoyer"> 
+                         
+                      </form>
             </div>
         </section>
         <footer class="text-center">
